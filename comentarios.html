@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylecomentario.css">
+</head>
+<body>
+
+    <h1>Deixe seu Comentário</h1>
+
+    <form
+        action="https://formsubmit.co/franciscojk@gmail.com"
+        method="POST"
+        class="form"
+    >
+    <label for="name">Nome</label>
+    <input type="text" name="name" id="name" required />
+
+    <label for="email">E-mail</label>
+    <input type="email" name="email" id="email" required />
+
+     <label for="message">message</label>
+    <textarea name="message" id="message"required></textarea>
+    
+    <input type="hidden" name="captcha" value="false">
+
+    <input
+    type="hidden"
+    name="next"
+    value="https://http://127.0.0.1:5500/thanks.html"
+    />
+    <button type="submit">Enviar</button>
+    
+</body>
+</html>

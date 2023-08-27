@@ -1,0 +1,99 @@
+*,::after 
+ ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/dfa50804-e6f6-4fa2-a732-693dbc50527b/0c83c20d119cd350ffaaebe657fe868dc92c49f6.jpg?submitted=1684673098597&host=wbd-images.prod-vod.h264.io&partner=beamcom');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+
+}
+
+body,textarea {
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.form_box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 700px;
+}
+
+.form_box .title {
+    padding: 24px 32px;
+    font-size: 24px;
+    border-bottom: thin solid #ccc;
+}
+
+.form_box form {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.form_box input,
+.form_box textarea {
+  width: calc(50%  8px);
+  height: 48px;
+  border-radius: 8px;
+  border: thin solid #999;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.form_box input:first-child {
+    margin-right: 16px;
+}
+
+.form_box input[name=subject]{
+    width: 100%;
+}
+
+.form_box textarea {
+    width: 100%;
+    height: 180px;
+    padding: 16px;
+}
+
+.form_box button {
+    display: block;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: red;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form_box button:hover {
+    background-color: black;
+}
+
+
